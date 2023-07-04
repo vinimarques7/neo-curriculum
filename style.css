@@ -1,0 +1,157 @@
+:root{
+    --font1: "Playfair Display", serif;
+    --font2: "Roboto", sans-serif;
+    --font3: "Open Sans", sans-serif;
+    --fonts1: 5.5vh;
+    --fonts2: 3.5vh;
+    --fonts3: 2.6vh;
+    --fonts4: 2vh;
+    --subcolor: #9370d8;
+}
+
+body{
+    /* margin: auto;
+    padding: auto; */
+    display: flex;
+}
+
+
+/* FIRST COLUMN */
+
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 21rem;
+    transform: translate(2rem, 5rem);
+    
+    margin: auto;
+    padding: auto;
+    
+    /* background-color: yellow; */
+    
+
+
+}
+
+.title{
+    
+    padding: 0;
+    width: 21rem;
+    font-family: var(--font1);
+    font-size: var(--fonts1);
+    
+    /* background-color: red; */
+}
+
+.job{
+    display: flex;
+    font-size: 4vh;
+    font-size: var(--fonts2);
+    font-family: var(--font2);
+    
+    /* background-color: lightblue; */
+}
+
+.aboutme{
+    display: flex;
+    font-size: var(--fonts4);
+    font-family: var(--font3);
+
+    /* background-color: lightcoral; */
+}
+
+.exp{
+    color: #9370d8;
+    font-family: var(--font2);
+    font-size: var(--fonts3);
+}
+
+.xpl{
+    list-style: none;
+    font-family: var(--font3);
+    font-size: var(--fonts4);
+    padding: 0;
+}
+
+.projects{
+    font-family: var(--font3);
+    font-size: var(--fonts4);
+}
+
+.prol{
+    
+    font-family: var(--font3);
+    font-size: var(--fonts4);
+    padding: 0;
+    transform: translateX(1rem);
+}
+
+
+
+
+/* SECOND COLUMN */
+
+.second{
+    
+    display: flex;
+    flex-direction: column;
+    width: 21rem;    
+    transform: translate(25rem, 12rem);
+    height: fit-content;
+    transform: translate(-15rem, 12.5rem);
+    /* background-color: yellow; */
+}
+
+.contact{
+    color: #9370d8;
+    font-family: var(--font2);
+    font-size: var(--fonts3);
+}
+
+.contl{
+    
+    list-style: none;
+    font-family: var(--font3);
+    font-size: var(--fonts4);
+    padding: 0;
+}
+
+.cont h3{
+    display: inline;
+}
+
+.technology{
+    color: #9370d8;
+    font-family: var(--font2);
+    font-size: var(--fonts3);
+    padding: 0;
+    
+}
+
+.techno{
+    list-style: none;
+    font-family: var(--font3);
+    font-size: var(--fonts4);
+    padding: 0;
+    margin: 0;
+}
+
+.studies{
+    color: #9370d8;
+    font-family: var(--font2);
+    font-size: var(--fonts3);
+}
+
+.study{
+    list-style: none;
+    font-family: var(--font3);
+    font-size: var(--fonts4);
+    padding: 0;
+    margin: 0;
+}
+
+.study h2{
+    font-family: var(--font3);
+    font-size: var(--fonts4);
+    margin: 0;
+}
